@@ -1,37 +1,30 @@
-import { Text, View, StyleSheet } from 'react-native';
-import Constants from 'expo-constants';
-
-// You can import from local files
-import AssetExample from './components/AssetExample';
-
-// or any pure javascript modules available in npm
-import { Card } from 'react-native-paper';
+import React from 'react';
+import { View, StyleSheet } from 'react-native';
+//import Primeiro from './components/Primeiro';
+//import TesteDefatault, { Camp1, Camp2 } from './components/Multi';
+import MinMax from './components/MinMax';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.paragraph}>
-      Xvier
-      </Text>
-      <Card>
-        <AssetExample />
-      </Card>
+    <View style={styles.App}>
+      <MinMax/>
+
+      {/*
+      <TesteDefatault />
+      <Camp1 />
+      <Camp2 />
+      <Primeiro />
+  */}
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    paddingTop: Constants.statusBarHeight,
-    backgroundColor: '#ecf0f1',
-    padding: 8,
-  },
-  paragraph: {
-    margin: 24,
-    fontSize: 18,
-    fontWeight: 'bold',
-    textAlign: 'center',
-  },
+  App: {
+    backgroundColor: '#A55',//cor fundo
+    flexGrow: 1,// preferencia componente
+    justifyContent: 'center',// deixar centro
+    alignItems: "center"// deixar no meio da tela
+    
+  }
 });
