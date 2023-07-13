@@ -3,4 +3,11 @@ import {Text} from 'react-native'
 import Estilo from './estilo'
 
 
-export default ()=> <Text style={Estilo.txtG}>O valor x é maior que o valor y </Text>
+export default (param)=> {
+    //console.warn(param)
+return(
+<Text style={Estilo.txtG}>
+    O valor {param.max} é maior que o valor {param.min}
+    </Text>
+)
+}

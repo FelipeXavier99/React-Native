@@ -4,7 +4,9 @@ export default StyleSheet.create({
 
 txtG: {
 
-    fontSize: 34
+    fontSize: 32,
+    textAlign: "center", // CENTRALIZAR TEXTO
+    
 }
 
 
