@@ -1,0 +1,21 @@
+{
+	
+	 "Conjunto Funcional": {
+		"scope": "javascript,typescript",
+		"prefix": "conjPadrao",
+		"body": [
+		"import React from 'react'",
+		"import {  Text } from 'react-native'",
+		"import Estilo from './estilo'",
+		"",
+		"export default propos => {",
+		"return (",
+		"<Text style={Estilo.txtG}>",
+			"$1",
+			"</Text>",
+			"   )",
+			"}",
+		],
+		"description": "Log output to console"
+	}
+}
