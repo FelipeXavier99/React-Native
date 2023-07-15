@@ -13,7 +13,9 @@ export default props => {
             title="Executar"
             onPress={function() {
                 const n = gerarNumero(props.min, props.max)
-                props.funcao(n, 'O valor é: ')
+                n % 2 === 0
+                ? props.funcao(n, 'O valor é PAR: ')
+                :props.funcao(n, 'O valor é ÍMPAR: ')
             }}
         />
     )

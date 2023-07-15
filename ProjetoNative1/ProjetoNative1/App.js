@@ -4,26 +4,38 @@ import { View, StyleSheet } from 'react-native';
 import TesteDefatault, { Camp1, Camp2 } from './components/Multi';
 import MinMax from './components/MinMax';
 import Aleatorio from './components/Aleatorio';   */
-import Titulo from './components/Titulo';
+//import Titulo from './components/Titulo';
 //import Button from './components/Button';
 //import Pai from './components/Indireta/Pai';
-import ContadorV2 from './components/Contador/ContadorV2';
-import ParImpar from './components/ParImpar';
+//import ContadorV2 from './components/Contador/ContadorV2';
+//import ParImpar from './components/ParImpar';
+//import Contador from './components/Contador';
+import Teste from './components/Teste/Teste';
+import Familia from './components/Relacao/Familia';
+import Membro from './components/Membro';
 
 export default function App() {
   return (
     <View style={styles.App}>   
-      <Titulo principal="Cadastro do Produto"
-      segundario="Tela de Cadastro"/>
+     
+     <Teste n1={2} n2={4}/>
+
+     
 {/* 
+
+
+ <Titulo principal="Cadastro do Produto"
+      segundario="Tela de Cadastro"/>
+
+       <Pai />
       <Button />
       <Contador inicial={100} />
 
-      <Pai />
-      */}
-
+     
+     
       <ContadorV2 />
       < ParImpar />
+       */}
 
       {/* Inserindo parametros(tipo declarar Objeto) 1- STRING  2 -Nº INTEIROS 
       <MinMax min="3" max="20"  />  
