@@ -20,7 +20,9 @@ import Aleatorio from './components/Aleatorio';   */
 //import Flex1 from './components/layout/Flex1';
 //import Flex2 from './components/layout/Flex2';
 //import Flex3 from './components/layout/Flex3';
-import Flex4 from './components/layout/Flex4';
+//import Flex4 from './components/layout/Flex4';
+//import Mega from './components/Mega/Mega';
+import Mega from './components/Mega/Mega';
 
 
 
@@ -28,11 +30,13 @@ export default function App() {
   return (
     <View style={styles.App}>   
      
-<Flex4/>
+   
+     <Mega qtdeNumeros={12} />
 
  
      
 {/* 
+<Flex4/>
 <Flex3/>
 < Flex2 />
 <Flex1 />
