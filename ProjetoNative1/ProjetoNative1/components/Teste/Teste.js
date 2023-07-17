@@ -33,6 +33,8 @@ export default function InputNumeros(props) {
         value={numero2}
         onChangeText={text => setNumero2(text)}
       />
+
+<Button title="1" ></Button>
       <Button title="Calcular Soma" onPress={calcularSoma} />
       <Button title="Calcular Subtração" onPress={calcularSubtracao} />
     </View>
