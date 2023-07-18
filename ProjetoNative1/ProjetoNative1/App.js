@@ -10,7 +10,6 @@ import Aleatorio from './components/Aleatorio';   */
 //import ContadorV2 from './components/Contador/ContadorV2';
 //import ParImpar from './components/ParImpar';
 //import Contador from './components/Contador';
-//import Teste from './components/Teste/Teste';
 //import Familia from './components/Relacao/Familia';
 //import UsuarioLogado from './components/UsuarioLogado';
 //import ListaProdutos from './components/Produtos/ListaProdutos';
@@ -22,8 +21,9 @@ import Aleatorio from './components/Aleatorio';   */
 //import Flex3 from './components/layout/Flex3';
 //import Flex4 from './components/layout/Flex4';
 //import Mega from './components/Mega/Mega';
-import Mega from './components/Mega/Mega';
-
+//import Mega from './components/Mega/Mega';
+import Teste from './components/Teste/Teste';
+import Button from './components/Teste/Button';
 
 
 export default function App() {
@@ -31,11 +31,12 @@ export default function App() {
     <View style={styles.App}>   
      
    
-     <Mega qtdeNumeros={12} />
+   <Teste />
 
  
      
 {/* 
+  <Mega qtdeNumeros={12} />
 <Flex4/>
 <Flex3/>
 < Flex2 />
@@ -85,5 +86,8 @@ const styles = StyleSheet.create({
     alignItems: "center",   // deixar no meio da tela
     padding: 20    // espaçamentos nas laterias DA TELA TODA(detalhe está sem  aspas)
     
+  },
+  buttons:{
+    flexDirection:'row',
   }
 });

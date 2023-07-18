@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Text, Button, TextInput, View } from 'react-native';
 import Estilo from '../estilo';
 
+
 export default function InputNumeros(props) {
   const [numero1, setNumero1] = useState('');
   const [numero2, setNumero2] = useState('');
@@ -39,4 +40,8 @@ export default function InputNumeros(props) {
       <Button title="Calcular Subtração" onPress={calcularSubtracao} />
     </View>
   );
+
+
+
+  
 }
