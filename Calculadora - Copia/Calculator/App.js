@@ -11,7 +11,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.paragraph}>
-      Xvier
+      Xavier
       </Text>
       <Card>
         <AssetExample />
@@ -19,6 +19,7 @@ export default function App() {
     </View>
   );
 }
+
 
 const styles = StyleSheet.create({
   container: {
