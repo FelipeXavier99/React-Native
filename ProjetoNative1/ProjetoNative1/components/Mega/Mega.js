@@ -56,7 +56,7 @@ export default class Mega extends Component {
                 />
                 <View style={{
                     marginTop: 20,
-                    flexDirection: 'row',
+                    flexDirection: 'row', 
                     flexWrap: 'wrap',
                     justifyContent: 'center'
                 }}>
@@ -67,7 +67,7 @@ export default class Mega extends Component {
     }
 }
 
-{/*- linha 47 mostra nº numericos 
+{/*- linha 47 mostra nº numericos na tela do celular pra DIGITAR!
 - <Text> {this.state.numeros.join(,)} // SEPARA O ARRAY EM VÍRGULAS!
 
 -Outra repeticao!
@@ -81,6 +81,11 @@ for (ket i = 0; i <qtdNumeros; i++){
 numero.sort{(a,b)=> a-b}
 this.setState ({numeros})
 }
+
+
+
+-LINHA 59:  flexDirection: 'row' = DEIXA LADO A LADO
+
 
 }
 */}

@@ -24,3 +24,8 @@ const style = StyleSheet.create({
         color: '#FFF'
     }
 })
+
+{/*
+-linha:16 é o CSS da bola preta
+-linha:23 é a cor dos nº dentro da bola
+*/}
