@@ -3,16 +3,18 @@ import {Platform, StyleSheet, Text, View} from 'react-native'
 import Button from './src/components/Button'
 import Display from './src/components/Display'
 
-// STATUS DA VISUALIZACAO
+// STATUS INICIAL DA VISUALIZACAO
 const initialState = {
   displayValue: '0',
   clearDisplay: false,
   operation: null,
-  values: [0, 0],
-  current: 0,
+  values: [0, 0], //aqui é array que recebe 2 valores pra fazer a operacao da calculadora!
+  current: 0, //aqui aponta pra primeiro índice do array!
 }
 
 export default class App extends Component {
+  
+  //os 3 pontos faz uma cópia do objeto initialState
   state = { ...initialState }
 
 //QUANDO RECEBE UM DÍGITO NUMÉRICO
@@ -51,7 +53,7 @@ export default class App extends Component {
       const values = [...this.state.values]
       try {
         values[0] = 
-          eval(`${values[0]} ${this.state.operation} ${values[1]}`)
+          eval(`${values[0]} ${this.state.operation} ${values[1]}`)  // EVAL é onde faz as operações(+-*/) automáticas!
       } catch (e) {
         values[0] = this.state.values[0]
       }
