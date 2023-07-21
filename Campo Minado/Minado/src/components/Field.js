@@ -1,3 +1,6 @@
+// BLOCO DO CAMPO MINADO
+
+
 import React from 'react'
 import { View, StyleSheet, Text, TouchableWithoutFeedback } from 'react-native'
 import params from '../params'
@@ -14,6 +17,7 @@ export default props => {
     if (!opened && !exploded) styleField.push(styles.regular)
 
     let color = null
+    //Condição do numeros das cores
     if (nearMines > 0) {
         if (nearMines == 1) color = '#2A28D7'
         if (nearMines == 2) color = '#2B520F'
@@ -22,6 +26,8 @@ export default props => {
     }
 
     return (
+
+        //aqui é qdo é clicado o componente
         <TouchableWithoutFeedback onPress={props.onOpen}
             onLongPress={props.onSelect}>
             <View style={styleField}>
@@ -35,12 +41,14 @@ export default props => {
     )
 }
 
+//BLOCO MINADO
 const styles = StyleSheet.create({
     field: {
         height: params.blockSize,
         width: params.blockSize,
         borderWidth: params.borderSize,
     },
+
     regular: {
         backgroundColor: '#999',
         borderLeftColor: '#CCC',

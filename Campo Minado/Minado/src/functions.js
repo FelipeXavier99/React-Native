@@ -1,30 +1,36 @@
+// TABULEIRO
+
+
+//FUNCAO
+//MATRIZ(array com array) PRINCIPAL com objeto
 const createBoard = (rows, columns) => {
     return Array(rows).fill(0).map((_, row) => {
         return Array(columns).fill(0).map((_, column) => {
             return {
-                row,
-                column,
-                opened: false,
-                flagged: false,
-                mined: false,
+                row, //linha
+                column, //coluna
+                opened: false, // aberto
+                flagged: false, //bandeira
+                mined: false, //minado
                 exploded: false,
-                nearMines: 0
+                nearMines: 0 //qtd de minas
             }
         })
     })
 }
 
+// Funcao Lógica pra mostrar as minas
 const spreadMines = (board, minesAmount) => {
     const rows = board.length
     const columns = board[0].length
     let minesPlanted = 0
     
     while (minesPlanted < minesAmount) {
-        const rowSel = parseInt(Math.random() * rows, 10)
-        const columnSel = parseInt(Math.random() * columns, 10)
+        const rowSel = parseInt(Math.random() * rows, 10)  //linhas aleatórias entre 1 e 9
+        const columnSel = parseInt(Math.random() * columns, 10) //colunas  aleatórias entre 1 e 9
 
         if (!board[rowSel][columnSel].mined) {
-            board[rowSel][columnSel].mined = true
+            board[rowSel][columnSel].mined = true // insere a mina
             minesPlanted++
         }
     }
@@ -44,6 +50,8 @@ const cloneBoard = board => {
     })
 }
 
+
+//aqui é a lógica
 const getNeighbors = (board, row, column) => {
     const neighbors = []
     const rows = [row - 1, row, row + 1]

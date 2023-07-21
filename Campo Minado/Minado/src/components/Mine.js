@@ -1,8 +1,11 @@
+// DESENHANOD A MINE
+
 import React from 'react'
 import { View, StyleSheet } from 'react-native'
 
 export default props => {
     return (
+        //aqui faz as linas da mine!
         <View style={styles.container}>
             <View style={styles.coreMine} />
             <View style={styles.line} />

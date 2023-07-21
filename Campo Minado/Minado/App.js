@@ -15,16 +15,18 @@ import {
   flagsUsed
 } from './src/functions'
 
+
+//detalhe App é uma calsse
 export default class App extends Component {
 
   constructor(props) {
     super(props)
-    this.state = this.createState()
+    this.state = this.createState()  //state vem de Component
   }
 
   minesAmount = () => {
-    const cols = params.getColumnsAmount()
-    const rows = params.getRowsAmount()
+    const cols = params.getColumnsAmount() // total de colunas
+    const rows = params.getRowsAmount() // total de linhas
     return Math.ceil(cols * rows * params.difficultLevel)
   }
 
@@ -40,7 +42,7 @@ export default class App extends Component {
   }
 
   onOpenField = (row, column) => {
-    const board = cloneBoard(this.state.board)
+    const board = cloneBoard(this.state.board)  //aqui faz um clone
     openField(board, row, column)
     const lost = hadExplosion(board)
     const won = wonGame(board)
