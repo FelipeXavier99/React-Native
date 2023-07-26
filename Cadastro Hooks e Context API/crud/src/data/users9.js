@@ -21,7 +21,7 @@ export default [
       name: 'Julio Fragoso',
       email: 'juliafral@empmail.com',
       avatarUrl:
-        'https://cdn.pixabay.com/photo/2016/03/31/19/58/avatar-1295429_960_720.png',
+        'https://cdn.pixabay.com/photo/2023/06/21/08/58/monkey-8078840_960_720.jpg',
     },
     {
       id: 4,

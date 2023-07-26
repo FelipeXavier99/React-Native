@@ -4,6 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack'
 import UserList from './src/views/UserList'
 import UserForm from './src/views/UserForm'
 import { Button, Icon } from 'react-native-elements'  //tem q ser aqui e nao import icons
+import {UsersProvider}  from './src/context/UserContext2'
 
 
 
@@ -11,7 +12,7 @@ const Stack = createStackNavigator()
 
 export default props => {
   return (
-
+<UsersProvider>
     <NavigationContainer>
 
      { /* ROTAS*/}
@@ -23,6 +24,8 @@ export default props => {
           name="UserList"
           component={UserList}
           options={({ navigation }) => {
+
+            //CABEÇALHO
             return {
                 title: "Lista de Usuários",
                 headerRight: () => (
@@ -42,6 +45,7 @@ export default props => {
         />
         </Stack.Navigator>
         </NavigationContainer>
+        </UsersProvider>
 
         
   )
