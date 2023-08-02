@@ -5,13 +5,24 @@
 
 
 
-instalar
+# INSTALAÇÃO:
+npm install axios
+npm install react-native-gravatar
+npm install @react-navigation/native @react-navigation/bottom-tabs
+npm install react-native-vector-icons
+ npm install react-native-image-picker
+ npm install react-redux
+npm install redux
+npm install redux-thunk
+npm install react
 
- "axios": "0.18.0",
-    "react-native-gravatar": "1.0.2",
-    "react-native-image-picker": "0.27.1",
-    "react-native-vector-icons": "5.0.0",
-    "react-navigation": "2.14.2",
-    "react-redux": "5.0.7",
-    "redux": "4.0.0",
-    "redux-thunk": "2.3.0"
+fontes
+npx expo install expo-font
+npx expo install @expo-google-fonts/roboto expo-font     //nome da fonte está como roboto e pode alterar no goole font,lembrando q tem ser minúsculo
+
+
+# fontes para EXPO
+https://docs.expo.dev/versions/latest/sdk/font/
+
+
+npx expo install @expo-google-fonts/courgette expo-font

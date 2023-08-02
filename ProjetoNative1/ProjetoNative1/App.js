@@ -25,17 +25,21 @@ import Aleatorio from './components/Aleatorio';   */
 import Teste from './components/Teste/Teste';
 import Button from './components/Teste/Button';
 
+import Cabecalho from './components/Cabecalho';
+
+
 
 export default function App() {
   return (
     <View style={styles.App}>   
      
-   
-   <Teste />
+   <Cabecalho/>
+
 
  
      
 {/* 
+ <Teste />
   <Mega qtdeNumeros={12} />
 <Flex4/>
 <Flex3/>
