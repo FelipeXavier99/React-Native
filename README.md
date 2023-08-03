@@ -21,31 +21,33 @@ Abaixo alguns aplicativos feitos!
 
 ### App Calculadora(button,display,lógica,TouchableHighlight)
 
-<img src="https://github.com/FelipeXavier99/React-Native/assets/127893679/7816a991-cb43-4216-ba68-c654fb6d6eb0" width="25%" height=auto alt="calc">
+<img src="https://github.com/FelipeXavier99/React-Native/assets/127893679/99bb451b-5d73-4926-b961-b1bec5c63361" width="25%" height=auto alt="calc">
+
 
 #
 #
 
 ### Aplicativo Task (FlatList,Knex,Backeend,Postman)
-<img src="https://github.com/FelipeXavier99/React-Native/assets/127893679/f28fff48-adb9-4dd8-83c1-6ebf05862d4c" width="25%" height=auto alt="task">
+<img src="https://github.com/FelipeXavier99/React-Native/assets/127893679/6c2acc83-775c-4f06-8e5e-bb90141098ba" width="25%" height=auto alt="task">
 
 #
 #
 
 ### Aplicativo de navegação(rotas) (Drawers,Stack,handler,switch)
-<img src="https://github.com/FelipeXavier99/React-Native/assets/127893679/a0d7b959-e9ac-437c-bce4-80e2162dc912" width="25%" height=auto alt="navi">
+<img src="https://github.com/FelipeXavier99/React-Native/assets/127893679/3a6ced63-e3f6-47ff-a90b-8c0f847d2a28" width="25%" height=auto alt="navi">
 
 #
 #
 
 ### Um dos app dos minis projetos nativos(vector-icons,reduce,fill,Math.random)
-<img src="https://github.com/FelipeXavier99/React-Native/assets/127893679/755636fa-fd4a-4e81-9d6b-43f058bda631" width="25%" height=auto alt="mega">
+<img src="https://github.com/FelipeXavier99/React-Native/assets/127893679/72386446-b415-41af-92bb-b06011f7eb96" width="25%" height=auto alt="mega">
 
 #
 #
 
 ### App jogo campo Minado(Alert,showLevelSelection,map,array,)
-<img src="https://github.com/FelipeXavier99/React-Native/assets/127893679/ea2bc8d5-db7d-49d4-8a52-6bee6a24cddc" width="25%" height=auto alt="minado">
+<img src="https://github.com/FelipeXavier99/React-Native/assets/127893679/3686d385-c41c-4b55-b96c-d8ee39eb4dad" width="25%" height=auto alt="minado">
+
 
 
 
