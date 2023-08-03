@@ -1,3 +1,6 @@
+
+//nao testado
+
 import {
     SET_POSTS,
     ADD_COMMENT,

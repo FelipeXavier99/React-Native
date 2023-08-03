@@ -28,7 +28,8 @@ const styles = StyleSheet.create({
     image: {
         width: Dimensions.get('window').width,
         height: Dimensions.get('window').width * 3 / 4,
-        resizeMode: 'contain'
+        resizeMode: 'contain',
+        top: '1%',
     }
 })
 

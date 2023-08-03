@@ -19,7 +19,7 @@ function Cabecalho() {
     <View style={styles.container}>
       <View style={styles.rowContainer}>
         <Image source={icon} style={styles.image} />
-        <Text style={styles.title}>Lambe Lambe</Text>
+        <Text style={styles.title}>Clone Instagram</Text>
       </View>
     </View>
   );
@@ -33,6 +33,7 @@ const styles = StyleSheet.create({
     width: '100%',
     flexDirection: 'row',
     justifyContent: 'space-between',
+    top: '10%',
   },
   rowContainer: {
     flexDirection: 'row',
@@ -42,6 +43,8 @@ const styles = StyleSheet.create({
     height: 30,
     width: 30,
     resizeMode: 'contain',
+    
+    
   },
   title: {
     color: '#000',

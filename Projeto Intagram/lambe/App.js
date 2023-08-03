@@ -6,7 +6,7 @@ import Cabecalho from './src/components/Cabecalho';
 
 import Post from './src/components/Post';
 
-import Comments from './src/components/Comments';
+//import Comments from './src/components/Comments';
 
 export default class App extends Component {
   render() {
@@ -18,7 +18,7 @@ export default class App extends Component {
       },{
         
           nickname: 'Zé Vieira',
-          comment: 'Dalee'
+          comment: 'Belo teste instagram'
           },{
       
       }]
@@ -28,7 +28,7 @@ export default class App extends Component {
     return (
       <View style={{ flex: 1 }}>
         <Cabecalho />
-        <Post image={require('./assets/imgs/fence.jpg')} 
+        <Post image={require('./assets/imgs/bw.jpg')} 
         comments={comments} />
       </View>
 
