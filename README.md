@@ -13,15 +13,22 @@ Abaixo alguns aplicativos feitos!
 #
 #
 
-# Aplicativo Cadastro Hooks e Context API(tela de usurários com email e ícones com crud)
+# Aplicativo Cadastro Hooks e Context API(tela de usuários com email e ícones com crud,)
 
 <img src="https://github.com/FelipeXavier99/React-Native/assets/127893679/d505d582-af36-49e0-ad21-a8b1301f588e" width="25%" height=auto alt="hook">
 
 #
+#
 
-### App Calculadora
+
+### App Calculadora(button,display,lógica,TouchableHighlight)
 
 <img src="https://github.com/FelipeXavier99/React-Native/assets/127893679/7816a991-cb43-4216-ba68-c654fb6d6eb0" width="25%" height=auto alt="calc">
+
+#
+#
+
+###
 
 
 
