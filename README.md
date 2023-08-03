@@ -5,8 +5,8 @@ Abaixo alguns aplicativos feitos!
 
  ### Aplicativo Clone Instagram! (exportando fonte google,usando redux,FireBase)
 
+![clone_Insta](https://github.com/FelipeXavier99/React-Native/assets/127893679/cacc3cfc-65dd-418b-8c8c-e481e4f932dd)
 
-![Clone Instagram](clone_Insta.png)
 
 
 
