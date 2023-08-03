@@ -10,7 +10,8 @@ export default props => (
     <SafeAreaView style={{flex: 1}}>
         <NavigationContainer>
             
-<Drawers />
+        <Tab />
+
         </NavigationContainer>
     </SafeAreaView>
 )

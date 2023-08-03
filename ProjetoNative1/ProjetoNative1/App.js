@@ -1,31 +1,31 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-/*import Primeiro from './components/Primeiro';
+/*
+import Primeiro from './components/Primeiro';
 import TesteDefatault, { Camp1, Camp2 } from './components/Multi';
 import MinMax from './components/MinMax';
-import Aleatorio from './components/Aleatorio';   */
-//import Titulo from './components/Titulo';
-//import Button from './components/Button';
-//import Pai from './components/Indireta/Pai';
-//import ContadorV2 from './components/Contador/ContadorV2';
-//import ParImpar from './components/ParImpar';
-//import Contador from './components/Contador';
-//import Familia from './components/Relacao/Familia';
-//import UsuarioLogado from './components/UsuarioLogado';
-//import ListaProdutos from './components/Produtos/ListaProdutos';
-//import ListaProdutosV2 from './components/Produtos/ListaProdutosV2';
-//import DigiteSeuNome from './components/DigiteSeuNome';
-//import Quadrado from './components/layout/Quadrado';
-//import Flex1 from './components/layout/Flex1';
-//import Flex2 from './components/layout/Flex2';
-//import Flex3 from './components/layout/Flex3';
-//import Flex4 from './components/layout/Flex4';
-//import Mega from './components/Mega/Mega';
-//import Mega from './components/Mega/Mega';
+import Aleatorio from './components/Aleatorio';   
+import Titulo from './components/Titulo'//import Button from './components/Button';
+import Pai from './components/Indireta/Pai';
+import ContadorV2 from './components/Contador/ContadorV2';
+import ParImpar from './components/ParImpar';
+import Contador from './components/Contador';
+import Familia from './components/Relacao/Familia';
+import UsuarioLogado from './components/UsuarioLogado';
+import ListaProdutos from './components/Produtos/ListaProdutos';
+import ListaProdutosV2 from './components/Produtos/ListaProdutosV2';
+import DigiteSeuNome from './components/DigiteSeuNome';
+import Quadrado from './components/layout/Quadrado';
+import Flex1 from './components/layout/Flex1';
+import Flex2 from './components/layout/Flex2';
+import Flex3 from './components/layout/Flex3';
+import Flex4 from './components/layout/Flex4';
+*/
+
+import Mega from './components/Mega/Mega';
 import Teste from './components/Teste/Teste';
 import Button from './components/Teste/Button';
 
-import Cabecalho from './components/Cabecalho';
 
 
 
@@ -33,8 +33,7 @@ export default function App() {
   return (
     <View style={styles.App}>   
      
-   <Cabecalho/>
-
+     <Teste />
 
  
      
@@ -47,7 +46,6 @@ export default function App() {
 <Flex1 />
 <Quadrado />
 <Quadrado cor= '#0F0'/>
-
 <DigiteSeuNome />
 <Teste n1={2} n2={4}/>
 <ListaProdutos />
