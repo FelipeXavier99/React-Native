@@ -5,7 +5,7 @@ Abaixo alguns aplicativos feitos!
 
  ### Aplicativo Clone Instagram! (exportando fonte google,usando redux,FireBase)
 
-
+![Foto finalizado](https://github.com/FelipeXavier99/Projeto-Prime-React/assets/127893679/cae6a5c9-7805-4964-ba56-c8f6ef058605)
 
 ![Clone Instagram](clone_Insta.png)
 
