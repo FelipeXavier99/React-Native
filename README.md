@@ -1,6 +1,8 @@
-# Aulas Aprendidas  e implementadas do Curso Udemy React Native!
+# Aulas Aprendidas  e implementadas do Curso Udemy React Native!(node,JS)
+
+#
+
+# Projeto Clone Instagram! (exportando fonte google,usando redux,FileBase)
 
 
-
-# Projeto Clone Instagram! (exportando fonte google,usando redux,)
-[WhatsApp Image 2023-08-03 at 14 26 53](https://github.com/FelipeXavier99/React-Native/assets/127893679/d2f8aaff-0a7e-49c9-aed5-baaddb0cb214)
+![clone_Insta](https://github.com/FelipeXavier99/React-Native/assets/127893679/a33e80eb-99cc-4473-a71b-348d2d76f4dd)
