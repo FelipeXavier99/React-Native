@@ -12,5 +12,5 @@
 #
 #
 
-# PROJETO Cadastro Hooks e Context API(tela de usurários com email e ícones)
+# PROJETO Cadastro Hooks e Context API(tela de usurários com email e ícones com crud)
 ![WhatsApp Image 2023-08-03 at 14 26 53](https://github.com/FelipeXavier99/React-Native/assets/127893679/dccd7467-0a79-4a29-915d-011f4d2b7f0b)
