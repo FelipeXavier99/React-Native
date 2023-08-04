@@ -1,4 +1,4 @@
-# Aulas realizadas e implementadas do Curso Udemy React Native!(node,JS,EXPO GO)
+# Aulas realizadas e implementadas do Curso Udemy React Native!(node,JSX,EXPO GO)
 Abaixo alguns aplicativos feitos!
 #
 
